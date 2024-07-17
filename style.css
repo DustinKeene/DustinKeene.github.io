@@ -71,10 +71,13 @@ html {
   margin-right: auto;
 }
 
-.navList .pastime {
-  margin-right: 3rem;
+.navList .projects {
+  margin-left: 50px;
 }
 
+.navList .skills {
+  margin-left: 50px;
+}
 .greet {
   margin: auto;
   width: 50%;
