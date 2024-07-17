@@ -14,7 +14,9 @@ html {
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   z-index: 2;
-  width: 100%;
+}
+.headerContainer {
+  width: 100vw;
 }
 .introContainer {
   display: flex;
@@ -39,7 +41,7 @@ html {
   list-style-type: none;
   padding: 1.25rem;
   margin: 0 0 9.375rem 0;
-  justify-content: space-between; /* Align items with space between them */
+  justify-content: space-between; 
 }
 
 .navList li {
@@ -213,7 +215,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Darkened background */
+  background: rgba(0, 0, 0, 0.7); 
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   display: flex;
