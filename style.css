@@ -8,6 +8,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 .headerNavBar {
   position: sticky;
   top: 0;
@@ -15,26 +16,7 @@ html {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
-.headerContainer {
-  width: 100vw;
-}
-.introContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  flex-wrap: wrap;
-}
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
+
 .navList {
   display: flex;
   font-size: 1.25rem;
@@ -82,6 +64,39 @@ html {
 .navList .skills {
   margin-left: 50px;
 }
+
+@media (max-width: 406px) {
+  .headerNavBar {
+    display: none;
+  }
+  .introWrapper {
+    margin-top: 100px;
+  }
+  .profileImage {
+    margin-top: 100px;
+  }
+}
+.headerContainer {
+  width: 100vw;
+}
+.introContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .greet {
   margin: auto;
   width: 50%;
