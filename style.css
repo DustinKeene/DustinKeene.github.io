@@ -41,7 +41,7 @@ html {
   list-style-type: none;
   padding: 1.25rem;
   margin: 0 0 9.375rem 0;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .navList li {
@@ -218,7 +218,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); 
+  background: rgba(0, 0, 0, 0.7);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   display: flex;
@@ -279,7 +279,7 @@ html {
 }
 .technicalSkills {
   background-color: white;
-  margin-bottom: 50px;
+  margin: 0 20px 50px 20px;
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: 5px 5px;
@@ -291,6 +291,7 @@ html {
 .techStackDescriptions {
   margin: 15px 30px;
 }
+
 .webDevStack img:hover {
   opacity: 0.35;
   transition: opacity 0.125s ease-in-out;
